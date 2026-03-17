@@ -1,0 +1,14 @@
+D:\Флешка\Practice\Practice A\Zadanie 3\Zadanie 3\bin\Debug\net8.0\Zadanie 3.exe
+D:\Флешка\Practice\Practice A\Zadanie 3\Zadanie 3\bin\Debug\net8.0\Zadanie 3.deps.json
+D:\Флешка\Practice\Practice A\Zadanie 3\Zadanie 3\bin\Debug\net8.0\Zadanie 3.runtimeconfig.json
+D:\Флешка\Practice\Practice A\Zadanie 3\Zadanie 3\bin\Debug\net8.0\Zadanie 3.dll
+D:\Флешка\Practice\Practice A\Zadanie 3\Zadanie 3\bin\Debug\net8.0\Zadanie 3.pdb
+D:\Флешка\Practice\Practice A\Zadanie 3\Zadanie 3\obj\Debug\net8.0\Zadanie 3.GeneratedMSBuildEditorConfig.editorconfig
+D:\Флешка\Practice\Practice A\Zadanie 3\Zadanie 3\obj\Debug\net8.0\Zadanie 3.AssemblyInfoInputs.cache
+D:\Флешка\Practice\Practice A\Zadanie 3\Zadanie 3\obj\Debug\net8.0\Zadanie 3.AssemblyInfo.cs
+D:\Флешка\Practice\Practice A\Zadanie 3\Zadanie 3\obj\Debug\net8.0\Zadanie 3.csproj.CoreCompileInputs.cache
+D:\Флешка\Practice\Practice A\Zadanie 3\Zadanie 3\obj\Debug\net8.0\Zadanie 3.dll
+D:\Флешка\Practice\Practice A\Zadanie 3\Zadanie 3\obj\Debug\net8.0\refint\Zadanie 3.dll
+D:\Флешка\Practice\Practice A\Zadanie 3\Zadanie 3\obj\Debug\net8.0\Zadanie 3.pdb
+D:\Флешка\Practice\Practice A\Zadanie 3\Zadanie 3\obj\Debug\net8.0\Zadanie 3.genruntimeconfig.cache
+D:\Флешка\Practice\Practice A\Zadanie 3\Zadanie 3\obj\Debug\net8.0\ref\Zadanie 3.dll
