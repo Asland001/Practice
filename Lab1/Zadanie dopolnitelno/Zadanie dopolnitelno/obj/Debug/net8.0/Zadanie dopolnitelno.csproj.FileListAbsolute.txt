@@ -1,0 +1,14 @@
+D:\Флешка\Practice\Lab 1\Zadanie dopolnitelno\Zadanie dopolnitelno\bin\Debug\net8.0\Zadanie dopolnitelno.exe
+D:\Флешка\Practice\Lab 1\Zadanie dopolnitelno\Zadanie dopolnitelno\bin\Debug\net8.0\Zadanie dopolnitelno.deps.json
+D:\Флешка\Practice\Lab 1\Zadanie dopolnitelno\Zadanie dopolnitelno\bin\Debug\net8.0\Zadanie dopolnitelno.runtimeconfig.json
+D:\Флешка\Practice\Lab 1\Zadanie dopolnitelno\Zadanie dopolnitelno\bin\Debug\net8.0\Zadanie dopolnitelno.dll
+D:\Флешка\Practice\Lab 1\Zadanie dopolnitelno\Zadanie dopolnitelno\bin\Debug\net8.0\Zadanie dopolnitelno.pdb
+D:\Флешка\Practice\Lab 1\Zadanie dopolnitelno\Zadanie dopolnitelno\obj\Debug\net8.0\Zadanie dopolnitelno.GeneratedMSBuildEditorConfig.editorconfig
+D:\Флешка\Practice\Lab 1\Zadanie dopolnitelno\Zadanie dopolnitelno\obj\Debug\net8.0\Zadanie dopolnitelno.AssemblyInfoInputs.cache
+D:\Флешка\Practice\Lab 1\Zadanie dopolnitelno\Zadanie dopolnitelno\obj\Debug\net8.0\Zadanie dopolnitelno.AssemblyInfo.cs
+D:\Флешка\Practice\Lab 1\Zadanie dopolnitelno\Zadanie dopolnitelno\obj\Debug\net8.0\Zadanie dopolnitelno.csproj.CoreCompileInputs.cache
+D:\Флешка\Practice\Lab 1\Zadanie dopolnitelno\Zadanie dopolnitelno\obj\Debug\net8.0\Zadanie dopolnitelno.dll
+D:\Флешка\Practice\Lab 1\Zadanie dopolnitelno\Zadanie dopolnitelno\obj\Debug\net8.0\refint\Zadanie dopolnitelno.dll
+D:\Флешка\Practice\Lab 1\Zadanie dopolnitelno\Zadanie dopolnitelno\obj\Debug\net8.0\Zadanie dopolnitelno.pdb
+D:\Флешка\Practice\Lab 1\Zadanie dopolnitelno\Zadanie dopolnitelno\obj\Debug\net8.0\Zadanie dopolnitelno.genruntimeconfig.cache
+D:\Флешка\Practice\Lab 1\Zadanie dopolnitelno\Zadanie dopolnitelno\obj\Debug\net8.0\ref\Zadanie dopolnitelno.dll
