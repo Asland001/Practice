@@ -1,0 +1,14 @@
+D:\Флешка\Practice\Lab 1\Zadanie 8\Zadanie 8\bin\Debug\net8.0\Zadanie 8.exe
+D:\Флешка\Practice\Lab 1\Zadanie 8\Zadanie 8\bin\Debug\net8.0\Zadanie 8.deps.json
+D:\Флешка\Practice\Lab 1\Zadanie 8\Zadanie 8\bin\Debug\net8.0\Zadanie 8.runtimeconfig.json
+D:\Флешка\Practice\Lab 1\Zadanie 8\Zadanie 8\bin\Debug\net8.0\Zadanie 8.dll
+D:\Флешка\Practice\Lab 1\Zadanie 8\Zadanie 8\bin\Debug\net8.0\Zadanie 8.pdb
+D:\Флешка\Practice\Lab 1\Zadanie 8\Zadanie 8\obj\Debug\net8.0\Zadanie 8.GeneratedMSBuildEditorConfig.editorconfig
+D:\Флешка\Practice\Lab 1\Zadanie 8\Zadanie 8\obj\Debug\net8.0\Zadanie 8.AssemblyInfoInputs.cache
+D:\Флешка\Practice\Lab 1\Zadanie 8\Zadanie 8\obj\Debug\net8.0\Zadanie 8.AssemblyInfo.cs
+D:\Флешка\Practice\Lab 1\Zadanie 8\Zadanie 8\obj\Debug\net8.0\Zadanie 8.csproj.CoreCompileInputs.cache
+D:\Флешка\Practice\Lab 1\Zadanie 8\Zadanie 8\obj\Debug\net8.0\Zadanie 8.dll
+D:\Флешка\Practice\Lab 1\Zadanie 8\Zadanie 8\obj\Debug\net8.0\refint\Zadanie 8.dll
+D:\Флешка\Practice\Lab 1\Zadanie 8\Zadanie 8\obj\Debug\net8.0\Zadanie 8.pdb
+D:\Флешка\Practice\Lab 1\Zadanie 8\Zadanie 8\obj\Debug\net8.0\Zadanie 8.genruntimeconfig.cache
+D:\Флешка\Practice\Lab 1\Zadanie 8\Zadanie 8\obj\Debug\net8.0\ref\Zadanie 8.dll
