@@ -1,0 +1,21 @@
+D:\Флешка\Practice\Lab 14\Zadanie 1\Zadanie 1\bin\Debug\net8.0-windows\Zadanie 1.exe
+D:\Флешка\Practice\Lab 14\Zadanie 1\Zadanie 1\bin\Debug\net8.0-windows\Zadanie 1.deps.json
+D:\Флешка\Practice\Lab 14\Zadanie 1\Zadanie 1\bin\Debug\net8.0-windows\Zadanie 1.runtimeconfig.json
+D:\Флешка\Practice\Lab 14\Zadanie 1\Zadanie 1\bin\Debug\net8.0-windows\Zadanie 1.dll
+D:\Флешка\Practice\Lab 14\Zadanie 1\Zadanie 1\bin\Debug\net8.0-windows\Zadanie 1.pdb
+D:\Флешка\Practice\Lab 14\Zadanie 1\Zadanie 1\obj\Debug\net8.0-windows\MainWindow.g.cs
+D:\Флешка\Practice\Lab 14\Zadanie 1\Zadanie 1\obj\Debug\net8.0-windows\App.g.cs
+D:\Флешка\Practice\Lab 14\Zadanie 1\Zadanie 1\obj\Debug\net8.0-windows\GeneratedInternalTypeHelper.g.cs
+D:\Флешка\Practice\Lab 14\Zadanie 1\Zadanie 1\obj\Debug\net8.0-windows\Zadanie 1_MarkupCompile.cache
+D:\Флешка\Practice\Lab 14\Zadanie 1\Zadanie 1\obj\Debug\net8.0-windows\Zadanie 1_MarkupCompile.lref
+D:\Флешка\Practice\Lab 14\Zadanie 1\Zadanie 1\obj\Debug\net8.0-windows\MainWindow.baml
+D:\Флешка\Practice\Lab 14\Zadanie 1\Zadanie 1\obj\Debug\net8.0-windows\Zadanie 1.g.resources
+D:\Флешка\Practice\Lab 14\Zadanie 1\Zadanie 1\obj\Debug\net8.0-windows\Zadanie 1.GeneratedMSBuildEditorConfig.editorconfig
+D:\Флешка\Practice\Lab 14\Zadanie 1\Zadanie 1\obj\Debug\net8.0-windows\Zadanie 1.AssemblyInfoInputs.cache
+D:\Флешка\Practice\Lab 14\Zadanie 1\Zadanie 1\obj\Debug\net8.0-windows\Zadanie 1.AssemblyInfo.cs
+D:\Флешка\Practice\Lab 14\Zadanie 1\Zadanie 1\obj\Debug\net8.0-windows\Zadanie 1.csproj.CoreCompileInputs.cache
+D:\Флешка\Practice\Lab 14\Zadanie 1\Zadanie 1\obj\Debug\net8.0-windows\Zadanie 1.dll
+D:\Флешка\Practice\Lab 14\Zadanie 1\Zadanie 1\obj\Debug\net8.0-windows\refint\Zadanie 1.dll
+D:\Флешка\Practice\Lab 14\Zadanie 1\Zadanie 1\obj\Debug\net8.0-windows\Zadanie 1.pdb
+D:\Флешка\Practice\Lab 14\Zadanie 1\Zadanie 1\obj\Debug\net8.0-windows\Zadanie 1.genruntimeconfig.cache
+D:\Флешка\Practice\Lab 14\Zadanie 1\Zadanie 1\obj\Debug\net8.0-windows\ref\Zadanie 1.dll
