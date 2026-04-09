@@ -1,0 +1,129 @@
+﻿<Window x:Class="CinemaApp.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:vm="clr-namespace:CinemaApp.ViewModels"
+        Title="CinemaApp" Height="680" Width="1040"
+        WindowStartupLocation="CenterScreen"
+        Loaded="Window_Loaded"
+        Closed="Window_Closed">
+
+    <Window.DataContext>
+        <vm:MainViewModel/>
+    </Window.DataContext>
+
+    <Window.InputBindings>
+        <KeyBinding Key="N" Modifiers="Control" Command="{Binding BookTicketCommand}"/>
+        <KeyBinding Key="E" Modifiers="Control" Command="{Binding EditTicketCommand}"/>
+        <KeyBinding Key="D" Modifiers="Control" Command="{Binding CancelTicketCommand}"/>
+    </Window.InputBindings>
+
+    <DockPanel>
+        <Menu DockPanel.Dock="Top">
+            <MenuItem Header="Файл">
+                <MenuItem Header="Забронировать билет" Command="{Binding BookTicketCommand}" InputGestureText="Ctrl+N"/>
+                <MenuItem Header="Изменить бронь" Command="{Binding EditTicketCommand}" InputGestureText="Ctrl+E"/>
+                <MenuItem Header="Отменить бронь" Command="{Binding CancelTicketCommand}" InputGestureText="Ctrl+D"/>
+            </MenuItem>
+            <MenuItem Header="Фильмы">
+                <MenuItem Header="Обновить" Command="{Binding BookTicketCommand}"/>
+            </MenuItem>
+            <MenuItem Header="Зал">
+                <MenuItem Header="Открыть схему зала" Command="{Binding OpenHallCommand}"/>
+            </MenuItem>
+            <MenuItem Header="Настройки">
+                <MenuItem Header="Сбросить" Command="{Binding BookTicketCommand}"/>
+            </MenuItem>
+        </Menu>
+
+        <Grid Margin="14">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="2.3*"/>
+                <ColumnDefinition Width="1.2*"/>
+            </Grid.ColumnDefinitions>
+
+            <StackPanel Grid.Column="0" Margin="0,0,12,0">
+                <TextBlock Text="Выбор сеанса" FontSize="16" FontWeight="Bold" Margin="0,0,0,8"/>
+
+                <ComboBox ItemsSource="{Binding Sessions}"
+                          SelectedItem="{Binding SelectedSession}"
+                          Height="34"
+                          Margin="0,0,0,12">
+                    <ComboBox.ItemTemplate>
+                        <DataTemplate>
+                            <StackPanel Orientation="Horizontal">
+                                <TextBlock Text="{Binding MovieName}" FontWeight="SemiBold"/>
+                                <TextBlock Text=" · " />
+                                <TextBlock Text="{Binding Time}"/>
+                                <TextBlock Text=" · " />
+                                <TextBlock Text="{Binding AvailableSeats, StringFormat=Мест: {0}}"/>
+                            </StackPanel>
+                        </DataTemplate>
+                    </ComboBox.ItemTemplate>
+                </ComboBox>
+
+                <Border BorderBrush="#D9E0EA" BorderThickness="1" CornerRadius="10" Padding="10" Margin="0,0,0,12">
+                    <StackPanel>
+                        <TextBlock Text="Текущий фильм" FontWeight="Bold"/>
+                        <TextBlock Text="{Binding SelectedMovieName}" Margin="0,4,0,8"/>
+                        <TextBlock Text="{Binding SelectedSession.Time, StringFormat=Время: {0}}"/>
+                        <TextBlock Text="{Binding SelectedSession.AvailableSeats, StringFormat=Свободных мест: {0}}"/>
+
+                        <TextBlock Text="Количество билетов" FontWeight="Bold" Margin="0,12,0,0"/>
+                        <TextBox Width="90"
+                                 Text="{Binding TicketCount, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"
+                                 Margin="0,4,0,0"/>
+
+                        <TextBlock Text="Покупатель" FontWeight="Bold" Margin="0,12,0,0"/>
+                        <TextBox Width="180"
+                                 Text="{Binding BuyerLogin, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"
+                                 Margin="0,4,0,0"/>
+                    </StackPanel>
+                </Border>
+
+                <StackPanel Orientation="Horizontal" Margin="0,0,0,12">
+                    <Button Content="Забронировать билет" Width="170" Margin="0,0,8,0" Command="{Binding BookTicketCommand}"/>
+                    <Button Content="Изменить бронь" Width="140" Margin="0,0,8,0" Command="{Binding EditTicketCommand}"/>
+                    <Button Content="Отменить бронь" Width="140" Command="{Binding CancelTicketCommand}"/>
+                </StackPanel>
+
+                <TextBlock Text="Брони" FontSize="16" FontWeight="Bold" Margin="0,0,0,8"/>
+
+                <ListBox ItemsSource="{Binding Tickets}"
+                         SelectedItem="{Binding SelectedTicket}"
+                         Height="300">
+                    <ListBox.ItemTemplate>
+                        <DataTemplate>
+                            <Border BorderBrush="#D9E0EA" BorderThickness="1" CornerRadius="10" Padding="10" Margin="4">
+                                <StackPanel>
+                                    <TextBlock Text="{Binding MovieName}" FontWeight="Bold"/>
+                                    <TextBlock Text="{Binding SessionTime}" />
+                                    <TextBlock Text="{Binding SeatCount, StringFormat=Мест: {0}}" />
+                                    <TextBlock Text="{Binding BuyerLogin, StringFormat=Покупатель: {0}}" />
+                                </StackPanel>
+                            </Border>
+                        </DataTemplate>
+                    </ListBox.ItemTemplate>
+                </ListBox>
+            </StackPanel>
+
+            <StackPanel Grid.Column="1">
+                <Border BorderBrush="#D9E0EA" BorderThickness="1" CornerRadius="10" Padding="12" Margin="0,0,0,12">
+                    <StackPanel>
+                        <TextBlock Text="Подсказка" FontWeight="Bold" Margin="0,0,0,8"/>
+                        <TextBlock Text="Выбирай сеанс в списке, затем бронируй, редактируй или отменяй бронь."
+                                   TextWrapping="Wrap"/>
+                    </StackPanel>
+                </Border>
+
+                <Border BorderBrush="#D9E0EA" BorderThickness="1" CornerRadius="10" Padding="12">
+                    <StackPanel>
+                        <TextBlock Text="Состояние" FontWeight="Bold" Margin="0,0,0,8"/>
+                        <TextBlock Text="{Binding SelectedMovieName}" />
+                        <TextBlock Text="{Binding SelectedSession.Time, StringFormat=Время: {0}}" />
+                        <TextBlock Text="{Binding SelectedSession.AvailableSeats, StringFormat=Мест осталось: {0}}" />
+                    </StackPanel>
+                </Border>
+            </StackPanel>
+        </Grid>
+    </DockPanel>
+</Window>

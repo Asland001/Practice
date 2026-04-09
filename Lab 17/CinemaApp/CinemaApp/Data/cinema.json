@@ -1,0 +1,26 @@
+﻿{
+  "Sessions": [
+    {
+      "MovieName": "Интерстеллар",
+      "Time": "18:00",
+      "AvailableSeats": 50
+    },
+    {
+      "MovieName": "Матрица",
+      "Time": "20:00",
+      "AvailableSeats": 40
+    },
+    {
+      "MovieName": "1+1",
+      "Time": "21:00",
+      "AvailableSeats": 20
+    },
+    {
+      "MovieName": "Джентльмены",
+      "Time": "22:00",
+      "AvailableSeats": 30
+    }
+  ],
+    
+  "Tickets": []
+}
