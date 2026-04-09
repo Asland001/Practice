@@ -1,4 +1,0 @@
-﻿[
-  { "Login": "admin", "Password": "1234", "Role": "admin" },
-  { "Login": "user", "Password": "1111", "Role": "user" }
-]
