@@ -1,0 +1,52 @@
+﻿@model RecipeBook.Models.Recipe
+
+@{
+    ViewData["Title"] = "Добавить рецепт";
+}
+
+<div class="row justify-content-center">
+    <div class="col-12 col-lg-8">
+        <div class="card shadow-sm border-0">
+            <div class="card-body p-4">
+                <h1 class="mb-4">Добавить рецепт</h1>
+
+                <form asp-action="Create" method="post">
+                    <div asp-validation-summary="All" class="text-danger mb-3"></div>
+
+                    <div class="mb-3">
+                        <label asp-for="Title" class="form-label">Название рецепта</label>
+                        <input asp-for="Title" class="form-control form-control-lg" placeholder="Например: Омлет" />
+                        <span asp-validation-for="Title" class="text-danger"></span>
+                    </div>
+
+                    <div class="mb-3">
+                        <label asp-for="Ingredients" class="form-label">Ингредиенты</label>
+                        <textarea asp-for="Ingredients" class="form-control" rows="4"
+                                  placeholder="Яйца, молоко, соль..."></textarea>
+                        <span asp-validation-for="Ingredients" class="text-danger"></span>
+                    </div>
+
+                    <div class="mb-4">
+                        <label asp-for="Steps" class="form-label">Шаги приготовления</label>
+                        <textarea asp-for="Steps" class="form-control" rows="6"
+                                  placeholder="1. Взбить яйца..."></textarea>
+                        <span asp-validation-for="Steps" class="text-danger"></span>
+                    </div>
+
+                    <div class="d-flex gap-2">
+                        <button type="submit" class="btn btn-success btn-lg">
+                            Сохранить
+                        </button>
+                        <a asp-action="Index" class="btn btn-outline-secondary btn-lg">
+                            Отмена
+                        </a>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}
