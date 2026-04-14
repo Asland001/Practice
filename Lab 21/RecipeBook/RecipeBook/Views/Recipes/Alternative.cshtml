@@ -1,0 +1,23 @@
+﻿@{
+    ViewData["Title"] = "Альтернатива рецепта";
+    var recipe = ViewBag.OriginalRecipe as RecipeBook.Models.Recipe;
+    var alternativeText = ViewBag.AlternativeText as string;
+}
+
+<div class="card shadow-sm border-0">
+    <div class="card-body p-4">
+        <h1 class="mb-3">Альтернатива рецепта</h1>
+
+        <p class="text-muted">
+            Оригинальный рецепт: <strong>@recipe?.Title</strong>
+        </p>
+
+        <div class="alert alert-success">
+            @alternativeText
+        </div>
+
+        <a asp-action="Details" asp-route-id="@recipe?.Id" class="btn btn-outline-secondary">
+            Вернуться к рецепту
+        </a>
+    </div>
+</div>
